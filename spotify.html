@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Music for Everyone</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <a href="#" class="logo">
+            <span class="logo-dot"></span>
+            Spotify
+        </a>
+        <nav>
+            <ul>
+                <li><a href="#">Premium</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Download</a></li>
+            </ul>
+        </nav>
+        <div class="auth-buttons">
+            <button class="btn btn-login">Log in</button>
+            <button class="btn btn-signup">Sign up</button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Listening is everything</h1>
+        <p>Millions of songs and podcasts. No credit card needed.</p>
+        <button class="cta-btn">Get Spotify Free</button>
+    </section>
+
+    <!-- Popular Songs Section -->
+    <section class="popular-songs">
+        <h2 class="section-title">Popular Right Now</h2>
+        <p class="section-subtitle">The most played songs this week</p>
+        
+        <div class="songs-grid" id="popularSongsGrid">
+            <!-- Songs go here -->
+        </div>
+    </section>
+
+    <!-- Playlist Generator-->
+    <section class="playlist-generator">
+        <h2 class="section-title">Indecisive Playlist Generator</h2>
+        <p class="section-subtitle">Can't decide what to listen to? Let us create a personalized playlist for you!</p>
+        
+        <button class="generate-btn" id="generateBtn">Help Me Decide</button>
+        
+        <div class="playlist-container">
+            <div class="playlist-header">
+                <h3 class="playlist-title">Your Instant Playlist</h3>
+                <p class="playlist-description">Curated just for you based on your mood</p>
+            </div>
+            <div class="song-list" id="songList">
+                <div class="empty-state">
+                    <p>Click "Help Me Decide" to generate your playlist</p>
+                    <p>We'll create a unique mix of songs for you</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-links">
+            <a href="#">Legal</a>
+            <a href="#">Privacy Center</a>
+            <a href="#">Cookies</a>
+            <a href="#">About Ads</a>
+        </div>
+        <p>&copy; 2025 Spotify AB</p>
+    </footer>
+    <script src="scriptSpotify.js"></script>
+    
+</body>
+</html>
