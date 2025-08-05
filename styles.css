@@ -12,7 +12,7 @@
             line-height: 1.6;
         }
 
-        /* Header Styles */
+        
         header {
             display: flex;
             justify-content: space-between;
@@ -98,7 +98,7 @@
             transform: translateY(-2px);
         }
 
-        /* Hero Section */
+        
         .hero {
             display: flex;
             flex-direction: column;
@@ -165,7 +165,7 @@
             box-shadow: 0 5px 15px rgba(29, 185, 84, 0.3);
         }
 
-        /* Popular Songs Section */
+        /*Popular Songs*/
         .popular-songs {
             padding: 80px 20px;
             text-align: center;
@@ -266,7 +266,7 @@
             white-space: nowrap;
         }
 
-        /* Playlist Generator Section */
+        /* Playlist Generator*/
         .playlist-generator {
             padding: 80px 20px;
             text-align: center;
@@ -414,7 +414,7 @@
             color: #ffffff;
         }
 
-        /* Responsive design */
+        
         @media (max-width: 1024px) {
             .songs-grid {
                 grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
